@@ -1,0 +1,21 @@
+Package: growR
+Title: Geographic Regions of the World in R
+Version: 0.0.0.9000
+Authors@R: Sarah Supp, email="sarah@weecology.org"
+Description: Methods and data for mapping several published geographic regions of the world to R ggmap plots. Includes data for, Marine Ecoregions of the World (regions.df from R Package meowR; Byrnes 2016; Spalding et al. 2007), Freshwater Ecoregions of the World (http://maps.tnc.org/files/metadata/FEOW.xml; Abell et al. 2008), Terrestrial Ecoregions of the World (http://maps.tnc.org/files/metadata/TerrEcos.xml; Olson et al. 2001), Biodiversity Hotspots (Version 2016.1, 25 April 2016; http://www.cepf.net/resources/hotspots/Pages/default.aspx; Noss et al. 2015; BirdLife International 2016; Mittermeier et al. 2011; Williams et al. 2011; Mittermeier et al. 2004; Myers et al. 2000), and IPBES regions (http://datadryad.org/resource/doi:10.5061/dryad.6gb90.2/15.2; Brooks et al. 2016a, 2016b). Modified functions from and uses marine data by J. Byrnes R package, meowR (https://github.com/jebyrnes/meowR; http://www.marineregions.org/downloads.php).
+Depends:
+	R (>= 3.3.3),
+	meowR,
+	sp,
+	maptools,
+	ggplot2,
+	plyr,
+	maps,
+	RColorBrewer
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
